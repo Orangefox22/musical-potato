@@ -4,6 +4,14 @@ PubMed 关键词发文量趋势分析 Web 应用 (Streamlit 版)
 基于原命令行脚本适配，支持交互式查询与可视化
 """
 
+
+streamlit==1.25.0
+biopython==1.81
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.2
+scikit-learn==1.3.0
+
 import time
 import logging
 import socket
